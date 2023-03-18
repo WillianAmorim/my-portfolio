@@ -1,5 +1,6 @@
 import React from "react";
 import { Header } from './styled'
+import Gif from './assets/giphy.gif'
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
           <li>Contate-me</li>
         </ul>
       </Header>
+      <div>
+        <img src={Gif} alt="" />
+      </div>
     </>
   );
 }

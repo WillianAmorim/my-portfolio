@@ -21,11 +21,15 @@ export const Header = styled.header `
 
 export const Div = styled.div `
   display: flex;
+  gap: 50px;
+  justify-content: space-around;
   height: 100%;
-  padding: 50px 50px;
   background-color: bisque;
+  padding-top: 70px;
 
-  img {
+  #gif-computer{
     border-radius: 25px;
+    width: 500px;
+    height: 300px;
   }
 `

@@ -1,23 +1,23 @@
 import React from "react";
-import { Header } from './styled'
+import { Main, Header, Div } from './styled'
 import Gif from './assets/giphy.gif'
 
 function App() {
   return (
-    <>
+    <Main>
       <Header>
         <p>Portfolio</p>
         <ul>
           <li>Home</li>
-          <li>Sobre Min</li>
+          <li>Sobre Mim</li>
           <li>Projetos</li>
           <li>Contate-me</li>
         </ul>
       </Header>
-      <div>
+      <Div>
         <img src={Gif} alt="" />
-      </div>
-    </>
+      </Div>
+    </Main>
   );
 }
 

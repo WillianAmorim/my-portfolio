@@ -1,9 +1,18 @@
 import React from "react";
-import { Header, Main } from "./styled";
 
 function App() {
   return (
-    <></>
+    <>
+      <header>
+        <p>Portfolio</p>
+        <ul>
+          <li>Home</li>
+          <li>Sobre Min</li>
+          <li>Projetos</li>
+          <li>Contate-me</li>
+        </ul>
+      </header>
+    </>
   );
 }
 

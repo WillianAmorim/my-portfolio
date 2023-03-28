@@ -1,8 +1,9 @@
 import React from 'react'
+import { Container } from '../styles/Header'
 
 const Header = () => {
   return (
-    <div>
+    <Container>
       <div>Portifólio</div>
       <ul>
         <li>Home</li>
@@ -10,7 +11,7 @@ const Header = () => {
         <li>Projetos</li>
         <li>Contate-me</li>
       </ul>
-    </div>
+    </Container>
   )
 }
 

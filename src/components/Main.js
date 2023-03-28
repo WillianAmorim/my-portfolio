@@ -9,7 +9,7 @@ const Main = () => {
       <div>
         <img src={Image} alt="" />
       </div>
-      <div>
+      <div id='info-home'>
         <h1>Desenvolvedor Front-end</h1>
         <section>
           <div>

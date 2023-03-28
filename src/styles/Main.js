@@ -11,4 +11,10 @@ export const Container = styled.div `
     align-items: center;
     justify-content: center;
   }
+
+  #info-home {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 `

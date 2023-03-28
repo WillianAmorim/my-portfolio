@@ -11,7 +11,7 @@ const Main = () => {
       </div>
       <div id='info-home'>
         <h1>Desenvolvedor Front-end</h1>
-        <section>
+        <section id='section-links'>
           <div>
             <a href="https://github.com/WillianAmorim" target="_blank" rel="noopener noreferrer">
               <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="" />

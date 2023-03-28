@@ -17,4 +17,11 @@ export const Container = styled.div `
     flex-direction: column;
     gap: 20px;
   }
+
+  #section-links {
+    div {
+      display: flex;
+      gap: 15px;
+    }
+  }
 `

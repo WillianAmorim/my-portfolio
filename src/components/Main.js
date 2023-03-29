@@ -10,7 +10,10 @@ const Main = () => {
         <img src={Image} alt="" />
       </div>
       <div id='info-home'>
-        <h1>Desenvolvedor Front-end</h1>
+        <div>
+          <h1>Willian Silva Amorim</h1>
+          <p>Desenvolvedor Front-end</p>
+        </div>
         <section id='section-links'>
           <div>
             <a href="https://github.com/WillianAmorim" target="_blank" rel="noopener noreferrer">

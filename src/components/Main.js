@@ -2,14 +2,16 @@ import React from 'react'
 import { Container } from '../styles/Main'
 import Image from '../assets/giphy.gif'
 
+import 'animate.css'
+
 
 const Main = () => {
   return (
     <Container>
-      <div>
+      <div className='animate__animated animate__bounceInDown'>
         <img src={Image} alt="" />
       </div>
-      <div id='info-home'>
+      <div id='info-home' className='animate__animated animate__bounceInDown'>
         <div>
           <h1>Willian Silva Amorim</h1>
           <p>Desenvolvedor Front-end</p>

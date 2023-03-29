@@ -7,7 +7,7 @@ export const Container = styled.div `
   justify-content: space-between;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #0a66c2;
+  background-color: #101638;
   color: #FFFFFF;
 
   ul {

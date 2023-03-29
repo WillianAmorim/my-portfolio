@@ -6,10 +6,10 @@ const Header = () => {
     <Container>
       <div>Portifólio</div>
       <ul>
-        <li>Home</li>
-        <li>Sobre Mim</li>
-        <li>Projetos</li>
-        <li>Contate-me</li>
+        <li className='hvr-underline-from-left'>Home</li>
+        <li className='hvr-underline-from-left'>Sobre Mim</li>
+        <li className='hvr-underline-from-left'>Projetos</li>
+        <li className='hvr-underline-from-left'>Contate-me</li>
       </ul>
     </Container>
   )

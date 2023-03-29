@@ -10,9 +10,17 @@ export const Container = styled.div `
   background-color: #101638;
   color: #FFFFFF;
 
+  div {
+    font-size: 40px;
+  }
+
   ul {
     display: flex;
     list-style: none;
     gap: 40px;
+
+    li {
+      font-size: 25px;
+    }
   }
 `

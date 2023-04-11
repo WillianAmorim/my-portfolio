@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from '../../styles/Main'
-import Image from '../assets/giphy.gif'
+import Image from '../../assets/giphy.gif'
 
 import 'animate.css'
 
